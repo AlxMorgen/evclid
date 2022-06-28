@@ -152,8 +152,16 @@ button {
 }
 
 .nav-item {
-  margin-right: 85px;
+  padding: 39px;
   cursor: pointer;
+}
+
+.nav-item a {
+  line-height: 0;
+}
+
+.nav-item:hover {
+  background: #ff9900;
 }
 
 .nav-search {
@@ -383,7 +391,9 @@ details > summary {
   color: #cacaca;
   line-height: 36px;
 }
-
+.footer-nav-link:hover {
+  color: #ff9900;
+}
 .footer-nav-list {
   margin-bottom: 90px;
 }
@@ -405,6 +415,7 @@ details > summary {
   padding: 19px 24px;
   margin-bottom: 25px;
   background: #414141;
+  resize: none;
 }
 
 .footer-send-area:nth-child(4) {
@@ -469,6 +480,13 @@ details > summary {
 
   .nav-item {
     margin: 5px 85px 15px 0px;
+    padding: 0;
+  }
+
+  .nav-item:hover,
+  .nav-item:hover a {
+    background: none;
+    color: #ff9900;
   }
 
   .open-nav-list {
