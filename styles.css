@@ -103,7 +103,7 @@ button {
   height: 30px;
   position: relative;
   display: none;
-  background: url(/img/burger-close.png) no-repeat;
+  background: url(img/burger-close.png) no-repeat;
   background-size: contain;
 }
 .burger-btn {
@@ -160,7 +160,7 @@ button {
   border: none;
   width: 22px;
   height: 22px;
-  background: url(/svg/search.svg) no-repeat;
+  background: url(svg/search.svg) no-repeat;
   background-size: 22px 22px;
   background-position: center center;
 }
@@ -256,13 +256,13 @@ button {
 }
 
 .about-presentation-right_item:first-child {
-  background: url(/svg/consult.svg) no-repeat center left;
+  background: url(svg/consult.svg) no-repeat center left;
   background-position-x: 50px;
   margin-bottom: 32px;
 }
 
 .about-presentation-right_item:last-child {
-  background: url(/svg/mech.svg) no-repeat center left;
+  background: url(svg/mech.svg) no-repeat center left;
   background-position-x: 50px;
 }
 
@@ -341,7 +341,7 @@ details > summary {
 }
 
 .faq-open {
-  background: url(/svg/+х.svg) no-repeat center center;
+  background: url(svg/+х.svg) no-repeat center center;
   width: 50px;
   height: 110px;
   border: none;
@@ -567,14 +567,14 @@ details > summary {
   }
 
   .about-presentation-right_item:first-child {
-    background: url(/svg/consult.svg) no-repeat center left;
+    background: url(svg/consult.svg) no-repeat center left;
     background-position-x: 40px;
     background-size: 114px 99px;
     margin-bottom: 32px;
   }
 
   .about-presentation-right_item:last-child {
-    background: url(/svg/mech.svg) no-repeat center left;
+    background: url(svg/mech.svg) no-repeat center left;
     background-position-x: 40px;
     background-size: 114px 99px;
     margin-bottom: 32px;
